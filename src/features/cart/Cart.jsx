@@ -1,9 +1,9 @@
-import LinkButton from "../../ui/LinkButton";
-import Button from "../../ui/Button";
-import CartItem from "./CartItem";
-import EmptyCart from "./EmptyCart";
+import LinkButton from "../../ui/LinkButton.jsx";
+import Button from "../../ui/Button.jsx";
+import CartItem from "./CartItem.jsx";
+import EmptyCart from "./EmptyCart.jsx";
 import { useDispatch, useSelector } from "react-redux";
-import { clearCart, getCart, getUserName } from "./cartSlice";
+import { clearCart, getCart, getUserName } from "./cartSlice.js";
 
 function Cart() {
   const dispatch = useDispatch();

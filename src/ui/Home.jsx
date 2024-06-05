@@ -1,4 +1,4 @@
-import CreateUser from "../features/user/CreateUser";
+import CreateUser from "../features/user/CreateUser.jsx";
 
 function Home() {
   return (

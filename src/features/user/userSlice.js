@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { getAddress } from "../../services/apiGeocoding";
+import { getAddress } from "../../services/apiGeocoding.js";
 
 const initialState = {
   userName: "",

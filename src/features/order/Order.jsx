@@ -1,7 +1,7 @@
 // Test ID: IIDSAT
 import { useFetcher, useLoaderData } from "react-router-dom";
-import { getOrder } from "../../services/apiRestaurant";
-import OrderItem from "./OrderItem";
+import { getOrder } from "../../services/apiRestaurant.js";
+import OrderItem from "./OrderItem.jsx";
 
 import {
   calcMinutesLeft,
